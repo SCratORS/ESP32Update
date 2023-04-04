@@ -32,7 +32,7 @@ extern "C" {
  *
  */
  
-typedef struct MD5Context {
+typedef struct MD5Context_ {
     uint32_t buf[4];
     uint32_t bits[2];
     uint8_t in[64];
