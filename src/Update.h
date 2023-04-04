@@ -2,7 +2,7 @@
 #define ESP32UPDATER_H
 
 #include <Arduino.h>
-//#include <MD5Builder.h>
+#include "MD5Builder.h"
 #include <functional>
 #include "esp_partition.h"
 
