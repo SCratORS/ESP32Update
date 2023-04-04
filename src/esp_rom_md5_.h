@@ -29,13 +29,12 @@ extern "C" {
  *
  */
 
-#ifndef MD5Context 
-typedef struct MD5Context {
+typedef struct {
     uint32_t buf[4];
     uint32_t bits[2];
     uint8_t in[64];
 } md5_context_t;
-#endif
+
 #define ESP_ROM_MD5_DIGEST_LEN 16
 
 /**
