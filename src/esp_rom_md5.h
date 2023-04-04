@@ -12,9 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef ESP_ROM_MD5_H_
-#define ESP_ROM_MD5_H_
-
 #pragma once
 
 #ifdef __cplusplus
@@ -67,6 +64,4 @@ void esp_rom_md5_final(uint8_t *digest, md5_context_t *context);
 
 #ifdef __cplusplus
 }
-#endif
-
 #endif
