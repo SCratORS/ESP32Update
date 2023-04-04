@@ -23,7 +23,7 @@
 #include <Stream.h>
 
 #include "esp_system.h"
-#include "esp_rom_md5.h"
+//#include "esp_rom_md5.h"
 
 class MD5Builder
 {
